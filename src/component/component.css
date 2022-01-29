@@ -1,0 +1,129 @@
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.text-section {
+  text-align: left;
+  font-family: "Spartan", sans-serif;
+  margin-right: 50px;
+}
+
+.text-section h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--very-dark-magenta);
+}
+
+.text-section p {
+  font-size: 16px;
+  margin-top: -15px;
+  color: var(--dark-grayish-magenta);
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-star {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  margin-left: 10px;
+}
+
+.rating-component {
+  display: flex;
+  width: 400px;
+  justify-content: left;
+  align-items: center;
+  background-color: var(--light-grayish-magenta);
+  border-radius: 10px;
+  padding: 13px 50px 13px 30px;
+}
+
+.rating-box {
+  margin-top: 25px;
+}
+
+.rating-box h1 {
+  font-size: 13px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  margin-left: 35px;
+  color: var(--very-dark-magenta);
+}
+
+.rating-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.card-body {
+  height: 200px;
+  width: 320px;
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-right: 40px;
+}
+
+.card-body p {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  color: var(--white);
+  padding-top: 25px;
+}
+
+.main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 138vh;
+}
+
+.text {
+  font-family: "Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  text-align: left;
+  padding-left: 20px;
+  line-height: 1.4;
+  padding-top: 8px;
+}
+
+.text span {
+  font-weight: 400;
+  color: var(--soft-pink);
+}
+
+.avtar {
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-flex {
+  display: flex;
+  align-items: center;
+}
